@@ -1,0 +1,181 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:MHW_MonsterSize_Editor"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!--Application-->
+    <system:String x:Key="file">ファイ</system:String>
+    <system:String x:Key="load">ロード</system:String>
+    <system:String x:Key="save">セーブ</system:String>
+    <system:String x:Key="reset">リセット</system:String>
+    <system:String x:Key="language">言語</system:String>
+    <system:String x:Key="about">ついて</system:String>
+    <system:String x:Key="type">エディタタイプ</system:String>
+    <system:String x:Key="path">インストールパス</system:String>
+    <system:String x:Key="probEdit">確率</system:String>
+    <system:String x:Key="sizeEdit">体型テーブル</system:String>
+    <system:String x:Key="crownEdit">金冠</system:String>
+
+
+    <!--Button-->
+    <system:String x:Key="allZero">ゼロに設定</system:String>
+    <system:String x:Key="singleFix">固定体型</system:String>
+    <system:String x:Key="fill">セルに記入</system:String>
+    <system:String x:Key="resetLine">行をリセット</system:String>
+    <system:String x:Key="sizeCalc">体型計算器</system:String>
+    <system:String x:Key="smart">スマート選択</system:String>
+    
+    <!--Message-->
+    <system:String x:Key="size">体型</system:String>
+    <system:String x:Key="selSize">選択体型</system:String>
+    <system:String x:Key="prob">確率/体型</system:String>
+    <system:String x:Key="errorSum">サイズ確率の合計は100にならなければなりません！</system:String>
+
+    <!--Table-->
+    <system:String x:Key="index">索引</system:String>
+    <system:String x:Key="desc">タイプ</system:String>
+    <system:String x:Key="total">合計</system:String>
+    <system:String x:Key="monster">モンスター</system:String>
+    <system:String x:Key="base">デフォルトサイズ</system:String>
+    <system:String x:Key="small">小金冠</system:String>
+    <system:String x:Key="silver">銀冠</system:String>
+    <system:String x:Key="big">大金冠</system:String>
+    
+
+    <!--Table Type-->
+    <system:String x:Key="デフォルトサイズのみ">デフォルトサイズのみ</system:String>
+    <system:String x:Key="A：無冠のみ">A：無冠のみ</system:String>
+    <system:String x:Key="A：銀冠（低）">A：銀冠（低）</system:String>
+    <system:String x:Key="A：銀冠（高）">A：銀冠（高）</system:String>
+    <system:String x:Key="A：最小～銀冠">A：最小～銀冠</system:String>
+    <system:String x:Key="A：金冠（低）">A：金冠（低）</system:String>
+    <system:String x:Key="A：金冠（高）">A：金冠（高）</system:String>
+    <system:String x:Key="A：イベ金冠（超高）">A：イベ金冠（超高）</system:String>
+    <system:String x:Key="A：金冠（極低）">A：金冠（極低）</system:String>
+    <system:String x:Key="A：予備３">A：予備３</system:String>
+    <system:String x:Key="予備">予備</system:String>
+    <system:String x:Key="B：無冠のみ">B：無冠のみ</system:String>
+    <system:String x:Key="B：銀冠（低）">B：銀冠（低）</system:String>
+    <system:String x:Key="B：銀冠（高）">B：銀冠（高）</system:String>
+    <system:String x:Key="B：最小～銀冠">B：最小～銀冠</system:String>
+    <system:String x:Key="B：金冠（低）">B：金冠（低）</system:String>
+    <system:String x:Key="B：金冠（高）">B：金冠（高）</system:String>
+    <system:String x:Key="B：イベ金冠（超高）">B：イベ金冠（超高）</system:String>
+    <system:String x:Key="B：金冠（極低）">B：金冠（極低）</system:String>
+    <system:String x:Key="B：予備３">B：予備３</system:String>
+    <system:String x:Key="D:金冠（低）">D:金冠（低）</system:String>
+    <system:String x:Key="D:金冠（高）">D:金冠（高）</system:String>
+    <system:String x:Key="D:イベ金冠（超高）">D:イベ金冠（超高）</system:String>
+    <system:String x:Key="D:金冠（極低）">D:金冠（極低）</system:String>
+    <system:String x:Key="C:金冠（低）">C:金冠（低）</system:String>
+    <system:String x:Key="C:金冠（高）">C:金冠（高）</system:String>
+    <system:String x:Key="C:イベ金冠（超高）">C:イベ金冠（超高）</system:String>
+    <system:String x:Key="C:金冠（極低）">C:金冠（極低）</system:String>
+    <system:String x:Key="C:予備3">C:予備3</system:String>
+    <system:String x:Key="予備枠">予備枠</system:String>
+
+    <!--Monster Name-->
+    <system:String x:Key="em000">アンジャナフ</system:String>
+    <system:String x:Key="em001">リオレウス</system:String>
+    <system:String x:Key="em002">アプトノス</system:String>
+    <system:String x:Key="em003">ジャグラス</system:String>
+    <system:String x:Key="em004">ゾラ・マグダラオス</system:String>
+    <system:String x:Key="em005">モス</system:String>
+    <system:String x:Key="em006">ガライーバ</system:String>
+    <system:String x:Key="em007">ドスジャグラス</system:String>
+    <system:String x:Key="em008">ケストドン♂</system:String>
+    <system:String x:Key="em009">リオレイア</system:String>
+    <system:String x:Key="em010">リオレイア亜種</system:String>
+    <system:String x:Key="em011">リオレウス亜種</system:String>
+    <system:String x:Key="em012">ディアブロス</system:String>
+    <system:String x:Key="em013">ディアブロス亜種</system:String>
+    <system:String x:Key="em014">キリン</system:String>
+    <system:String x:Key="em015">ベヒーモス</system:String>
+    <system:String x:Key="em016">クシャルダオラ</system:String>
+    <system:String x:Key="em017">ナナ・テスカトリ</system:String>
+    <system:String x:Key="em018">テオ・テスカトル</system:String>
+    <system:String x:Key="em019">ヴォルガノス</system:String>
+    <system:String x:Key="em020">イビルジョー</system:String>
+    <system:String x:Key="em021">ボルボロス</system:String>
+    <system:String x:Key="em022">ウラガンキン</system:String>
+    <system:String x:Key="em023">レーシェン</system:String>
+    <system:String x:Key="em024">プケプケ</system:String>
+    <system:String x:Key="em025">ネルギガンテ</system:String>
+    <system:String x:Key="em026">ゼノ・ジーヴァ</system:String>
+    <system:String x:Key="em027">クルルヤック</system:String>
+    <system:String x:Key="em028">ツィツィヤック</system:String>
+    <system:String x:Key="em029">ジュラトドス</system:String>
+    <system:String x:Key="em030">トビカガチ</system:String>
+    <system:String x:Key="em031">パオウルムー</system:String>
+    <system:String x:Key="em032">レイギエナ</system:String>
+    <system:String x:Key="em033">ドスギルオス</system:String>
+    <system:String x:Key="em034">オドガロン</system:String>
+    <system:String x:Key="em035">ラドバルキン</system:String>
+    <system:String x:Key="em036">ヴァルハザク</system:String>
+    <system:String x:Key="em037">ドドガマル</system:String>
+    <system:String x:Key="em038">マム・タロト</system:String>
+    <system:String x:Key="em039">バゼルギウス</system:String>
+    <system:String x:Key="em040">アプケロス</system:String>
+    <system:String x:Key="em041">ケルビ</system:String>
+    <system:String x:Key="em042">ケルビ</system:String>
+    <system:String x:Key="em043">カンタロス</system:String>
+    <system:String x:Key="em044">ランゴスタ</system:String>
+    <system:String x:Key="em045">メルノス</system:String>
+    <system:String x:Key="em046">ケストドン♀</system:String>
+    <system:String x:Key="em047">ラフィノス</system:String>
+    <system:String x:Key="em048">シャムオス</system:String>
+    <system:String x:Key="em049">バルノス</system:String>
+    <system:String x:Key="em050">ギルオス</system:String>
+    <system:String x:Key="em051">エンシェント・レーシェン</system:String>
+    <system:String x:Key="em052">ガストドン</system:String>
+    <system:String x:Key="em053">ノイオス</system:String>
+    <system:String x:Key="em054">排熱器官</system:String>
+    <system:String x:Key="em055">（使わない）</system:String>
+    <system:String x:Key="em056">ガジャブー</system:String>
+    <system:String x:Key="em057">Unavailable</system:String>
+    <system:String x:Key="em058">Unavailable</system:String>
+    <system:String x:Key="em059">Unavailable</system:String>
+    <system:String x:Key="em060">Unavailable</system:String>
+    <system:String x:Key="em061">ティガレックス</system:String>
+    <system:String x:Key="em062">ナルガクルガ</system:String>
+    <system:String x:Key="em063">ベリオロス</system:String>
+    <system:String x:Key="em064">怒り喰らうイビルジョー</system:String>
+    <system:String x:Key="em065">ブラキディオス</system:String>
+    <system:String x:Key="em066">ディノバルド</system:String>
+    <system:String x:Key="em067">ディノバルド亜種</system:String>
+    <system:String x:Key="em068">アンジャナフ亜種</system:String>
+    <system:String x:Key="em069">プケプケ亜種</system:String>
+    <system:String x:Key="em070">悉くを殲ぼすネルギガンテ</system:String>
+    <system:String x:Key="em071">トビカガチ亜種</system:String>
+    <system:String x:Key="em072">パオウルムー亜種</system:String>
+    <system:String x:Key="em073">凍て刺すレイギエナ</system:String>
+    <system:String x:Key="em074">オドガロン亜種</system:String>
+    <system:String x:Key="em075">死を纏うヴァルハザク</system:String>
+    <system:String x:Key="em076">紅蓮滾るバゼルギウス</system:String>
+    <system:String x:Key="em077">ブラントドス</system:String>
+    <system:String x:Key="em078">バフバロ</system:String>
+    <system:String x:Key="em079">イヴェルカーナ</system:String>
+    <system:String x:Key="em080">ネロミェール</system:String>
+    <system:String x:Key="em081">アン・イシュワルダ</system:String>
+    <system:String x:Key="em082">ポポ</system:String>
+    <system:String x:Key="em083">ガウシカ</system:String>
+    <system:String x:Key="em084">ウルグ</system:String>
+    <system:String x:Key="em085">コルトス</system:String>
+    <system:String x:Key="em086">ボワボワ</system:String>
+    <system:String x:Key="em087">アルバトリオン</system:String>
+    <system:String x:Key="em088">リオレイア希少種</system:String>
+    <system:String x:Key="em089">リオレウス希少種</system:String>
+    <system:String x:Key="em090">イャンガルルガ</system:String>
+    <system:String x:Key="em091">ラージャン</system:String>
+    <system:String x:Key="em092">激昂したラージャン</system:String>
+    <system:String x:Key="em093">ティガレックス亜種</system:String>
+    <system:String x:Key="em094">ジンオウガ</system:String>
+    <system:String x:Key="em095">ジンオウガ亜種</system:String>
+    <system:String x:Key="em096">猛り爆ぜるブラキディオス</system:String>
+    <system:String x:Key="em097">ムフェト・ジーヴァ</system:String>
+    <system:String x:Key="em098">Unavailable</system:String>
+    <system:String x:Key="em099">傷ついたイャンガルルガ</system:String>
+    <system:String x:Key="em100">氷刃佩くベリオロス</system:String>
+    <system:String x:Key="em101">ミラボレアス</system:String>
+
+</ResourceDictionary>
